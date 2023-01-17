@@ -111,17 +111,6 @@ Player 1's turn.
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
 ---------------------------------
-|   | 4 | 4 | 4 | 4 | 4 | 4 |   |
-| 0 |-----------------------| 0 | 
-|   | 4 | 4 | 4 | 4 | 4 | 4 |   |
----------------------------------
-
-Player 1's turn.
-4
-Your stones landed on your endzone! You get an extra turn
-Game Board 
-*P1*..1...2...3...4...5...6..*P2*
----------------------------------
 |   | 5 | 5 | 5 | 0 | 4 | 4 |   |
 | 1 |-----------------------| 0 | 
 |   | 4 | 4 | 4 | 4 | 4 | 4 |   |
@@ -139,7 +128,6 @@ Game Board
 ---------------------------------
 *P1*..1...2...3...4...5...6..*P2*
 
-Player 2's turn.
 ``` 
 ## FINAL REMARKS
 This project was part of my CS 126 course I took during Winter 2023. I hope you enjoy playing the game!
