@@ -1,6 +1,6 @@
 # Mancala
 
-# HOW TO PLAY
+## HOW TO PLAY
 1. The game begins with one player picking up all of the pieces in any one of the pockets on his/her side.
 2. Moving counter-clockwise, the player deposits one of the stones in each pocket until the stones run out.
 3. If you run into your own Mancala (store), deposit one piece in it. If you run into your opponent's Mancala, skip it and
@@ -9,10 +9,11 @@
 5. If the last piece you drop is in an empty pocket on your side, you capture that piece and any pieces in the pocket directly
 opposite.
 
-# GAMEPLAY
+## GAMEPLAY
 - Each turn the user is presented with the current state of the board and asked to pick house they'd like to play from their side. 
 - After picking a house the seeds are distributed and the turns are switched.
-EXAMPLE:
+- Example:
+``` 
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
 ---------------------------------
@@ -31,11 +32,13 @@ Game Board
 ---------------------------------
 *P1*..1...2...3...4...5...6..*P2*
 
-Player 2's turn.
+Player 2's turn. 
+```
 
-# MANCALA BONUS TURN
+## MANCALA BONUS TURN
 - If the last seed lands on the endzone of the player, the player earns an bonus turn.
-Example:
+- Example:
+```
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
 ---------------------------------
@@ -56,11 +59,13 @@ Game Board
 ---------------------------------
 
 Player 1's turn.
+```
 
-# STEALING 
+## STEALING 
 - If the last piece you drop is in an empty pocket on your side, you capture that piece and any pieces in the pocket directly
 opposite.
-Example:
+- Example:
+```
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
 ---------------------------------
@@ -81,12 +86,14 @@ Game Board
 *P1*..1...2...3...4...5...6..*P2*
 
 Player 2's turn.
+```
 
-# ILLEGAL MOVES
+## ILLEGAL MOVES
 - You are required to choose a Mancala house on your side which is an integer between 1-6.
 - A valid Mancala house is a house that has more than 0 stones.
 - If an illegal move occurs then your turn is completely skipped.
-Example 1:
+- Example 1:
+```
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
 ---------------------------------
@@ -108,8 +115,9 @@ Game Board
 *P1*..1...2...3...4...5...6..*P2*
 
 Player 2's turn.
-
-Example 2:
+```
+- Example 2:
+```
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
 ---------------------------------
@@ -142,6 +150,6 @@ Game Board
 *P1*..1...2...3...4...5...6..*P2*
 
 Player 2's turn.
-
-# FINAL REMARKS
+``` 
+## FINAL REMARKS
 This project was part of my CS 126 course I took during Winter 2023. I hope you enjoy playing the game!
