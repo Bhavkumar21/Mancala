@@ -12,7 +12,7 @@ opposite.
 ## GAMEPLAY
 - Each turn the user is presented with the current state of the board and asked to pick house they'd like to play from their side. 
 - After picking a house the seeds are distributed and the turns are switched.
-EXAMPLE:
+Example:
 ``` 
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
