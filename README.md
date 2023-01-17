@@ -12,7 +12,7 @@ opposite.
 ## GAMEPLAY
 - Each turn the user is presented with the current state of the board and asked to pick house they'd like to play from their side. 
 - After picking a house the seeds are distributed and the turns are switched.
-Example:
+- Example:
 ``` 
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
@@ -37,7 +37,7 @@ Player 2's turn.
 
 ## MANCALA BONUS TURN
 - If the last seed lands on the endzone of the player, the player earns an bonus turn.
-Example:
+- Example:
 ```
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
@@ -64,7 +64,7 @@ Player 1's turn.
 ## STEALING 
 - If the last piece you drop is in an empty pocket on your side, you capture that piece and any pieces in the pocket directly
 opposite.
-Example:
+- Example:
 ```
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
@@ -92,7 +92,7 @@ Player 2's turn.
 - You are required to choose a Mancala house on your side which is an integer between 1-6.
 - A valid Mancala house is a house that has more than 0 stones.
 - If an illegal move occurs then your turn is completely skipped.
-Example 1:
+- Example 1:
 ```
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
@@ -116,7 +116,7 @@ Game Board
 
 Player 2's turn.
 ```
-Example 2:
+- Example 2:
 ```
 Game Board 
 *P1*..1...2...3...4...5...6..*P2*
