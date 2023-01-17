@@ -127,7 +127,6 @@ Game Board
 |   | 4 | 4 | 4 | 4 | 4 | 4 |   |
 ---------------------------------
 *P1*..1...2...3...4...5...6..*P2*
-
 ``` 
 ## FINAL REMARKS
 This project was part of my CS 126 course I took during Winter 2023. I hope you enjoy playing the game!
