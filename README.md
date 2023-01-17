@@ -91,7 +91,7 @@ Player 2's turn.
 ## ILLEGAL MOVES
 - You are required to choose a Mancala house on your side which is an integer between 1-6.
 - A valid Mancala house is a house that has more than 0 stones.
-- If an illegal move occurs then your turn is completely skipped.
+- If an illegal move occurs then play again until you enter a valid input.
 - Example 1:
 ```
 Game Board 
@@ -105,16 +105,6 @@ Game Board
 Player 1's turn.
 7
 **Illegal move: Please enter valid house that you'd like to play (number between 1-6)
-
-Game Board 
----------------------------------
-|   | 4 | 4 | 4 | 4 | 4 | 4 |   |
-| 0 |-----------------------| 0 | 
-|   | 4 | 4 | 4 | 4 | 4 | 4 |   |
----------------------------------
-*P1*..1...2...3...4...5...6..*P2*
-
-Player 2's turn.
 ```
 - Example 2:
 ```
